@@ -5,11 +5,11 @@ double calcCosts(int, int, double, double, double);
 
 int main()
 {
-    int tollspertrip;
-    int feespertrip;
-    double avgmpg;
-    double cpg;
-    double totalmiles;
+    int tollspertrip;   //Tolls would be an integer because tolls are usually integers or whole numbers.
+    int feespertrip;   //Parking fees would be an integer because fees are also usually integers.
+    double avgmpg;   //Miles per gallon is tagged under double because exact mpg measurements can include decimals.
+    double cpg;   //Cost per gallon is also tagged under double because exact cpg measurements can include decimals too.
+    double totalmiles;   //Total trip miles are tagged under double because an exact total mile measurement likely includes decimals.
     cout << "Enter Total Amount Paid to Tolls Here: ";
     cin >> tollspertrip;
     cout << "Enter Total Amount Paid for Parking Here: ";
